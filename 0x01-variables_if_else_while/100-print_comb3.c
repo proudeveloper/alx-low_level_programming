@@ -10,16 +10,16 @@ int main(void)
 	int i;
 	int j;
 
-	for (i = 12; i < 14; i++)
+	for (i = 21; i < 31; i++)
 	{
-		for (j = 12; j < 14; j++)
+		for (j = 21; j < 31; j++)
 		{
 			if (i < j)
 			{
 				putchar(i);
 				putchar(j);
 
-				if (i != 13)
+				if (i != 29)
 				{
 					putchar(',');
 					putchar(' ');
