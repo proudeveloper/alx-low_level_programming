@@ -16,7 +16,7 @@ int main(void)
 	printf("%lu, ", parameter1);
 	for (i = 1 ; i < 50 ; i++)
 	{
-		printf("%lu, ", parameter2);
+		printf("%lu", parameter2);
 		next = parameter1 + parameter2;
 		parameter1 = parameter2;
 		parameter2 = next;
