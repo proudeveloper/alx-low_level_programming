@@ -20,15 +20,18 @@ char *cap_string(char *s)
 		{
 			s[i] = s[i] + 'A' - 'a';
 		}
+
 		cap = 0;
+
 		for (j = 0; sep[j] != '\0'; j++)
 		{
 			if (s[i] == sep[j])
 			{
-				cap = 1
+				cap = 1;
 				break;
 			}
 		}
 	}
+
 	return (s);
 }
