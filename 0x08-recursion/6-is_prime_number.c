@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * is_prime - recurcively checks if @n is prime  by trying to divide with @i
+ * _is_prime - recurcively checks if @n is prime  by trying to divide with @i
  * @n: a parameter
  * @i: second parameter
  * Return: void
  */
-int is_prime(int n, int i)
+int _is_prime(int n, int i)
 {
 	if (n % i == 0)
 		return (0);
