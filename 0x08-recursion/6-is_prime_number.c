@@ -18,6 +18,8 @@ int _is_prime(int n, int i)
 
 
 }
+
+
 /**
  * is_prime_number - checks if an integer is prime
  * @n: a parameter
@@ -33,5 +35,5 @@ int is_prime_number(int n)
 	if (n == 2)
 		return (1);
 
-	return (_is_prime(n, 1));
+	return (_is_prime(n, i));
 }
