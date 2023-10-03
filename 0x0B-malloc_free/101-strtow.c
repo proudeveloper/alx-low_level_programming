@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdlib.h>
+
 void util(char **, char *);
-void create_word(char **, cahr *, int, int, int);
+void create_word(char **, char *, int, int, int);
 
 /**
  * strtow - splits a string into words
@@ -17,7 +18,7 @@ char **strtow(char *str)
 	if (str == NULL && str[0] == '\0' && (str[0] == ' ' && str[1] == '\0'))
 		return (NULL);
 
-	i = flag  len = 0;
+	i = flag = len = 0;
 	while (str[i])
 	{
 		if (flag == 0 && str[i] != ' ')
