@@ -24,7 +24,7 @@ char **strtow(char *str)
 			flag = 1;
 		if (i > 0 && str[i] == ' ' && str[i - 1] != ' ')
 		{
-			flag = 0
+			flag = 0;
 			len++;
 		}
 		i++;
@@ -51,6 +51,7 @@ char **strtow(char *str)
 void util(char **words, char *str)
 {
 	int i, j, start, flag;
+
 
 	i = j = flag = 0;
 	while (str[i])
