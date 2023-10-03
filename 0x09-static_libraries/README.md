@@ -1,0 +1,1 @@
+0x09 stat0x09-static libraries
