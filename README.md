@@ -1,1 +1,1 @@
-A new readme for this repo
+0x09 static libraries
