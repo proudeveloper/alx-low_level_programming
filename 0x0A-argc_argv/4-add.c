@@ -10,8 +10,7 @@
 int main(int argc, char *argv[])
 {
 	int i, j, num, sum = 0;
-
-	if (argc == 1)
+p_hWoAChSlEqh5SqISOdbcemumt72txK4Xtysj	if (argc == 1)
 	{
 		puts("0");
 	}
@@ -19,7 +18,7 @@ int main(int argc, char *argv[])
 	{
 		for (i = 1; i < argc; i++)
 		{
-			for (j = 0; argv[j][i] != '\0'; j++)
+			for (j = 0; argv[i][j] != '\0'; j++)
 			{
 				if (!(argv[i][j] >= '0' && argv[i][j] <= '9'))
 				{
