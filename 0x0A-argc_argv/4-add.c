@@ -10,7 +10,8 @@
 int main(int argc, char *argv[])
 {
 	int i, j, num, sum = 0;
-p_hWoAChSlEqh5SqISOdbcemumt72txK4Xtysj	if (argc == 1)
+
+	if (argc == 1)
 	{
 		puts("0");
 	}
