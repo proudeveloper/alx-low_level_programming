@@ -1,6 +1,6 @@
 #include "main.h"
-#include <stdlib.h>
-#include <string.h>
+#include "stdlib.h"
+#include "string.h"
 
 /**
  * count_words - counts the number of space separated words into strings
