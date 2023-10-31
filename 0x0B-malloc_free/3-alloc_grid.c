@@ -7,7 +7,7 @@
  * @height: second parameter
  * Return: 0
  */
-int **alloc_gric(int width, int height)
+int **alloc_grid(int width, int height)
 {
 	int i, j, **p;
 
