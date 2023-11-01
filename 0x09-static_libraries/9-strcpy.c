@@ -4,7 +4,7 @@
  * _strcpy - this is the function
  *@dest: destination buffer
  *@src: source string
- * Return: void
+ * Return: char*
  */
 char *_strcpy(char *dest, char *src)
 {
