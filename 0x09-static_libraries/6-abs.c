@@ -2,15 +2,14 @@
 
 /**
  * _abs - this function computes an absolute volume of an integer
- *@a: parameter determinant
- * Return: set to a
+ * @n: parameter determinant
+ * Return: set to n
  */
-int _abs(int a)
+int _abs(int n)
 {
-	if (a < 0)
-		return (-a);
-	else
-		return (a);
+	if (n < 0)
+		n *= -1;
 
+	return (n);
 
 }
